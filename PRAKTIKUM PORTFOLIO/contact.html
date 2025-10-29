@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <title>Portofolio Saya | Contact</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">MyPinkfolio</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="contact" class="fade-in">
+    <h2>Form Request Project 💌</h2>
+    <form id="contactForm">
+      <label>Name:</label>
+      <input type="text" name="nama" placeholder="Name" required />
+
+      <label>Email:</label>
+      <input type="email" name="email" placeholder="Email" required />
+
+      <label>Jenis Layanan:</label>
+      <select name="layanan">
+        <option>Pilih layanan</option>
+        <option>Website Portfolio</option>
+        <option>Web Menu</option>
+        <option>Web Edukasi</option>
+        <option>Public Speaking Tutorial</option>
+        <option>Web Shopping</option>
+      </select>
+
+      <label>Deskripsi/Pesan:</label>
+      <textarea name="pesan" rows="4" placeholder="Description" required></textarea>
+
+      <label><input type="checkbox" required /> Saya setuju dengan syarat & ketentuan</label>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="responseMsg"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Paris Karina | <a href="https://itpln.ac.id" target="_blank">ITPLN</a></p>
+  </footer>
+</body>
+</html>
